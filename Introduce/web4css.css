@@ -169,6 +169,11 @@ section{
     padding-right: 200px;
 }
 
+.page2_box h1{
+    /* text-indent: 15px; */
+    font-size: 45px;
+}
+
 .page2{
     display: flex;
     flex-wrap: wrap;
@@ -281,13 +286,17 @@ section{
 
 .page3_box{
     text-indent: 150px;
-    padding: 15px;
+    padding: 10px;
+}
+
+.page3_box h1{
+    font-size: 45px;
 }
 
 .page3{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+
     min-height: 500px;
     align-items: center;
     /* background:url(../project3/image/pngtree-close-up-of-dark-green-fern-leaves-a-natural-pattern-for-image_13770755.png) no-repeat;  */
@@ -297,15 +306,17 @@ section{
     padding-bottom: 10px;
     padding-left: 150px;
     padding-right: 150px;
+    
 }
 
 .page3 .content{
-    flex: 1 1 30px;
-    margin-top: 40px;
+    flex: 1 1 20px;
+    margin-top: 5px;
     margin-bottom: 10px;
-    padding: 30px;
+    padding: 20px;
     /* background: rgb(9, 9, 55);
     background: linear-gradient(90deg, rgba(2, 3, 3, 1) 0%, rgba(255, 255, 255, 0) 86%); */
+   
 }
 
 .page3 .content h3{
@@ -328,14 +339,30 @@ section{
 }
 
 .page3 img{
-    width: 400px; 
-    height: 400px;
+    width: 350px; 
+    height: 350px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .pic{
     padding-right: 20px;
+}
+
+#Pic1{
+    margin-top: 150px;
+}
+
+#Pic2{
+    margin-top: 60px;
+}
+
+#Pic3{
+    margin-top: 40px;
+}
+
+#Pic6{
+    margin-top: 50px;
 }
 
 /* page4 */
@@ -440,6 +467,89 @@ section{
     font-size: 22px;
     background-color: #e6e6e6;
 }
+
+/* <!-- header --> */
+header{
+    font-size: 20px;
+    /* position: fixed; */
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+    box-shadow: 10px 1rem 1rem rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+header .navbor a{
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    padding-right: 30px;
+}
+
+header .logo{
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+#menu-bar{
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px;
+    display: none; 
+}
+
+/* <!-- Page 1 --> */
+section{
+    padding: 10px;
+    background-color: #e6e6e6;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 600px;
+    align-items: center;
+    /* background:url(../project3/image/pngtree-close-up-of-dark-green-fern-leaves-a-natural-pattern-for-image_13770755.png) no-repeat;  */
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    /* padding-right: 60px; */
+    
+}
+
+.home .content{
+    flex: 1 1 30px;
+    margin-top: 60px;
+    padding: 25px;
+    /* background: rgb(9, 9, 55);
+    background: linear-gradient(90deg, rgba(2, 3, 3, 1) 0%, rgba(255, 255, 255, 0) 86%); */
+}
+
+.home .content h3 {
+    font-size: 33px;
+    color: rgb(0, 0, 0);
+}
+
+
+.home .content p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 .home .content .nav a{
     border: 1px;
     font-size: 20px;
@@ -447,14 +557,317 @@ section{
     color: black;
     border: 2px black solid;
     background-color: rgb(254, 137, 2); 
-    padding: 10px 10px 10px 10px;
+    padding: 30px 30px 30px 30px;
     border-radius: 25%;
 }
+
 .home img{
     width: 400px; 
     height: 400px;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.pic{
+    padding-right: 20px;
+}
+
+/* <!-- Page2 --> */
+section{
+    padding: 10px;
+    background-color: #e6e6e6;
+}
+
+#page2_block{
+    border-top: 1px solid black; 
+    /* border: 1px solid black; */
+    margin-right: 3%;
+    margin-left: 3%;
+    /* border-image: linear-gradient(90deg, rgba(255,255,255,0) 100%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(255,247,247,1) 0%); */
+}
+
+.page2_box{
+    /* text-indent: 15px; */
+    margin-top: 40px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+}
+
+.page2_box h1{
+    /* text-indent: 15px; */
+    font-size: 40px;
+}
+
+.page2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 200px;
+    align-items: center;
+    /* background:url(../project3/image/pngtree-close-up-of-dark-green-fern-leaves-a-natural-pattern-for-image_13770755.png) no-repeat;  */
+    background-size: cover;
+    background-position: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.page2 .content{
+    height: 110px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+
+    /* background: rgb(9, 9, 55);
+    background: linear-gradient(90deg, rgba(2, 3, 3, 1) 0%, rgba(255, 255, 255, 0) 86%); */
+}
+
+#page2_section2{
+    height: 360px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 28px;
+
+    /* background: rgb(9, 9, 55);
+    background: linear-gradient(90deg, rgba(2, 3, 3, 1) 0%, rgba(255, 255, 255, 0) 86%); */
+}
+
+#page2_section3{
+    height: 180px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 28px;
+
+    /* background: rgb(9, 9, 55);
+    background: linear-gradient(90deg, rgba(2, 3, 3, 1) 0%, rgba(255, 255, 255, 0) 86%); */
+}
+
+#page2_section4{
+    height: 320px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 28px;
+
+    /* background: rgb(9, 9, 55);
+    background: linear-gradient(90deg, rgba(2, 3, 3, 1) 0%, rgba(255, 255, 255, 0) 86%); */
+}
+
+#page2_title{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.page2 h3{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-left: 37px;
+    /* margin-bottom: 10px; */
+}
+
+
+.page2 .content ul{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.page2 .content p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    text-align: left;
+}
+.page2 img{
+    width: 400px; 
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pic{
+    padding-right: 20px;
+}
+
+/* <!-- Page3 --> */
+section{
+    padding: 10px;
+    background-color: #e6e6e6;
+}
+
+.page3_box{
+    text-indent: 60px;
+    padding: 15px;
+}
+
+.page3_box h1{
+    font-size: 40px;
+}
+
+.page3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 500px;
+    align-items: center;
+    /* background:url(../project3/image/pngtree-close-up-of-dark-green-fern-leaves-a-natural-pattern-for-image_13770755.png) no-repeat;  */
+    background-size: cover;
+    background-position: center;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+
+ 
+}
+
+.page3 .content{
+    flex: 1 1 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: px;
+    /* background: rgb(9, 9, 55);
+    background: linear-gradient(90deg, rgba(2, 3, 3, 1) 0%, rgba(255, 255, 255, 0) 86%); */
+}
+
+.page3 .content h3{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+
+.page3 .content h3 span{
+    font-size: 53px;
+    color: rgb(254, 137, 2);
+}
+
+.page3 .content p{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.page3 img{
+    width: 300px; 
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#Pic1{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+#Pic2{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+#Pic3{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+#Pic4{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+#Pic5{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+#Pic6{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+/* page4 */
+#page4_title{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 35px;
+    margin-left: 70px;
+}
+
+.order .row{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.order .row .image{
+    /* flex: 1 1 10px; */
+    height: 250px;
+    width: 650px;
+}
+
+#page4_text{
+    margin-top: 100px;
+}
+
+.order .row .image ul{
+    margin-left: 80px;
+}
+
+.order .row form .inputbox input, .order .row form textarea{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 45px;
+    font-size: 15px;
+    color: black;
+    text-transform: none;
+    border: 2px solid  rgb(0, 0, 0);
+}
+
+.order .row form textarea{
+    width: 80%;
+    resize: none;
+    height: 220px;
+    margin: 5px;
+    margin-left: 45px;
+}
+
+.order .row form .btn3{
+    font-size: 30px;
+    padding: 10px;
+    width: 70%;
+    margin-left: 70px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    /* 置中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #f8a130;
+}
+
+.order .row form .btn3:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+    transition: 0.65s all;
 }
 
 }
