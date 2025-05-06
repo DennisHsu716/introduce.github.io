@@ -154,7 +154,7 @@ section{
 }
 
 #page2_block{
-    border-top: 1px solid black; 
+    border-top: 1px solid rgb(0, 0, 0); 
     /* border: 1px solid black; */
     margin-right: 3%;
     margin-left: 3%;
@@ -165,7 +165,7 @@ section{
     /* text-indent: 15px; */
     margin-top: 40px;
     margin-left: 160px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-right: 200px;
 }
 
@@ -178,19 +178,19 @@ section{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    min-height: 200px;
+    min-height: 400px;
     align-items: center;
     /* background:url(../project3/image/pngtree-close-up-of-dark-green-fern-leaves-a-natural-pattern-for-image_13770755.png) no-repeat;  */
     background-size: cover;
     background-position: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     padding-left: 200px;
     padding-right: 30px;
 }
 
 .page2 .content{
-    height: 100px;
+    height: 110px;
     width: 600px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -201,7 +201,7 @@ section{
 }
 
 #page2_section2{
-    height: 320px;
+    height: 300px;
     width: 600px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -615,7 +615,7 @@ section{
 }
 
 .page2 .content{
-    height: 130px;
+    height: 250px;
     width: 600px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -626,7 +626,7 @@ section{
 }
 
 #page2_section2{
-    height: 550px;
+    height: 500px;
     width: 600px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -648,7 +648,7 @@ section{
 }
 
 #page2_section4{
-    height: 400px;
+    height: 360px;
     width: 600px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -870,4 +870,4 @@ section{
     transition: 0.65s all;
 }
 
-} 
+}
